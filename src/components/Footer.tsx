@@ -1,102 +1,92 @@
+import Image from 'next/image';
 import Link from 'next/link'
-import React from 'react'
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import React from "react";
 
 const Footer = () => {
-  const date = new Date()
   return (
+    <footer className="w-full h-screen bg-[#090f27] text-white py-16 px-16">
+      <div className="max-w-screen-xl h-full  flex justify-between gap-10">
+        {/* Left Section */}
+        <div className="flex w-full flex-col justify-between items-start text-center md:text-left">
+          <h2 className="uppercase text-4xl font-bold mb-4">Reach <span className='font-semibold normal-case'>Out</span></h2>
+          <div>
+          <div className="relative object-contain w-fit">
+          <Image
+          width={300}
+          height={300}
+            src="/E settlemnt Logo.png" // Update the logo image path
+            alt="E-Settlement Logo"
+          />
+          </div>
+          <p className="mt-4 text-sm text-center md:text-left">
+            © 2024 E-settlement Ltd
+          </p>
+          </div>
+        </div>
 
-    <div className='w-full lg:h-[90vh] md:px-[96px] px-8 py-16  text-white bg-footer bg-default-blue bg-no-repeat bg-center bg-cover'>
-      <div className='flex h-full flex-wrap gap-y-8'>
-        <div className='lg:w-1/4 md:w-1/2 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Products</h3>
-          <ul className=''>
-            <li className='mt-3 text-gray-200'>
-              <Link href="http://paycentreafrica.com">Paycentre</Link>
-            </li>
-            <li className='mt-3 text-gray-200'>
-              <Link href="https://www.yeppay.io">Yep!</Link>
-            </li>
-          </ul>
+        {/* Right Section */}
+        <div className="flex flex-col w-full h-full gap-16">
+        <div className="">
+          <h3 className="capitalize text-xl font-semibold mb-4">NEWSLETTER</h3>
+          <div className="flex items-center w-ful bg-[#090f27] rounded-lg p-2">
+            <input
+              type="email"
+              placeholder="Your Email..."
+              className="w-full bg-transparent px-4 py-4 text-white border-2 border-white"
+            />
+            <button className="text-black bg-white p-2 rounded-lg">
+              &rarr;
+            </button>
+          </div>
         </div>
-        <div className='lg:w-1/4 md:w-1/2 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Company</h3>
-          <ul className=''>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">About us</Link>
-            </li>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">What we do</Link>
-            </li>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">Careers</Link>
-            </li>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 md:w-1/2 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Learn</h3>
-          <ul className=''>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">Blog</Link>
-            </li>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">Community</Link>
-            </li>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 md:w-1/2 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Legal</h3>
-          <ul className=''>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">Privacy Policy</Link>
-            </li>
-            <li className='mt-3 text-gray-200'>
-              <Link href="">Terms and Conditions</Link>
-            </li>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 hidden mt-6 md:block md:w-1/2 w-full mx-auto'>
-          <img src='/assets/ESL-LETTER.svg' />
-        </div>
-        <div className='lg:w-1/4 md:w-1/2 mt-6 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Contact</h3>
-          <ul className=''>
-            <li className='mt-3 text-gray-200 text-base'>
-              info@esettlementgroup.com
-            </li>
-            <li className='mt-3 text-gray-200 flex gap-2'>
-              <Link href=""><img src='/assets/twitter.svg' className='w-6 md:w-8 h-auto'  /></Link>
-              <Link href=""><img src='/assets/linkedin.svg' className='w-6 md:w-8 h-auto' /></Link>
-            </li>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 md:w-1/2 mt-6 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Lagos</h3>
-          <ul className=''>
-            <p className='text-base mt-3'>13, Hughes Avenue, Alagomeji <br/>Yaba, Lagos</p>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 md:w-1/2 mt-6 w-full mx-auto'>
-          <h3 className='font-bold md:text-xl text-lg'>Cote D'Ivoire</h3>
-          <ul className=''>
-            <p className='text-base mt-3'>13, Hughes Avenue, Alagomeji <br/>Yaba, Lagos</p>
-          </ul>
-        </div>
-        <div className='lg:w-1/4 md:hidden mt-6 block md:w-1/2 w-full mx-auto'>
-          <Link
-            href="/"
-            className="flex items-center text-2xl font-bold text-[#022295]"
-          >
-            <img className="h-10 w-auto" alt="G" src="/assets/ESL Logo.svg" />
-          </Link>
+          <p className="mb-4 font-semibold">
+            contact@esettlementgroup.com
+            <br />
+            13A, Hughes Avenue, Alagomeji, Yaba, Lagos.
+          </p>
+          <p className="mb-4 font-semibold">
+            Telephone: (123) 456-7890
+            <br />
+            Mobile: (123) 456-7890
+          </p>
+          <div className="flex flex-col gap-2">
+            <h4 className='uppercase font-bold'>Follow US </h4>
+            {/* Social Icons */}
+            <div className="flex gap-3">
+            <a href="#" className="text-white text-lg hover:text-gray-400">
+              {/* Icon */}
+              <FaInstagram width={24} height={24} />
+            </a>
+            <a href="#" className="text-white text-lg hover:text-gray-400">
+              {/* Icon */}
+              <FaTwitter width={24} height={24} />
+            </a>
+            <a href="#" className="text-white text-lg hover:text-gray-400 w-8 h-auto cursor-pointer">
+              {/* Icon */}
+              <FaLinkedin width={24} height={24} />
+            </a>
+            </div>
+          </div>
+
+           {/* Bottom Links */}
+      <div className="font-semibold max-w-7xl mx-auto mt-12 flex gap-6 justify-self-end text-sm">
+        <a href="#" className="text-gray-300 hover:text-white ">
+          Terms & Conditions
+        </a>
+        <a href="#" className="text-gray-300 hover:text-white">
+          Privacy Policy
+        </a>
+      </div>
         </div>
       </div>
 
-      <div>
-        <h3 className='text-center text-gray-200 mx-auto mt-10 md:mt-0'>© {date.getFullYear()} E-Settlement Inc.</h3>
-      </div>
+     
+    </footer>
+  );
+};
 
-    </div>
-  )
-}
+export default Footer;
 
-export default Footer
