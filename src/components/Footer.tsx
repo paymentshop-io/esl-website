@@ -7,11 +7,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full font-sora h-screen bg-[#090f27] text-white py-16 px-16">
-      <div className="max-w-screen-xl h-full  flex justify-between gap-10">
+    <footer className="w-full font-sora md:h-screen bg-[#090f27] text-white py-16 px-8 md:px-16">
+      <div className="max-w-screen-xl h-full  grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left Section */}
         <div className="flex w-full flex-col justify-between items-start text-center md:text-left">
-          <h2 className=" font-ageo text-7xl font-medium mb-4">Reach <span className='font-semibold normal-case'>Out</span></h2>
+          <h2 className=" font-ageo text-4xl md:text-7xl font-medium mb-4">Reach <span className='font-semibold normal-case'>Out</span></h2>
           <div>
           <div className="relative object-contain w-fit">
           <Image
@@ -31,13 +31,13 @@ const Footer = () => {
         <div className="flex flex-col w-full h-full gap-16">
         <div className="">
           <h3 className="capitalize text-xl font-semibold mb-4">NEWSLETTER</h3>
-          <div className="flex relative items-center h-[96px] w-full border-2 border-white bg-[#090f27] rounded-lg">
+          <div className="flex relative items-center h-[72px] md:h-[96px] w-full border-2 border-white bg-[#090f27] rounded-lg">
             <input
               type="email"
               placeholder="Your Email..."
               className="w-full bg-transparent h-full px-4 py-4 text-white "
             />
-            <button className="text-black right-0 h-full w-[90px] absolute bg-white p-2 rounded-l-lg">
+            <button className="text-black right-0 h-full w-[70px] md:w-[90px] absolute bg-white p-2 rounded-l-lg">
               &rarr;
             </button>
           </div>
