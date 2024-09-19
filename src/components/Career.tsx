@@ -8,7 +8,7 @@ const Careers: React.FC = () => {
 
       <div className="relative z-10 grid gap-4 grid-cols-1 lg:grid-cols-2 items-center w-10/12 max-w-6xl py-12">
         {/* Right Image Section (now comes first on mobile) */}
-        <div className="w-full flex md:h-[600px] justify-center items-center">
+        <div className="w-full flex md:h-[600px] lg:order-last  justify-center items-center">
           <img
             src="/images/career.jpg"
             alt="Careers"
@@ -17,7 +17,7 @@ const Careers: React.FC = () => {
         </div>
 
         {/* Left Text Section (comes last on mobile, first on larger screens) */}
-        <div className="text-white px-6 md:px-12 lg:order-last">
+        <div className="text-white px-6 md:px-12 ">
           <Image
             width={60}
             height={60}
