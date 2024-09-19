@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { TbMathGreater } from "react-icons/tb";
 import React from "react";
 
 const Footer = () => {
@@ -37,8 +38,8 @@ const Footer = () => {
               placeholder="Your Email..."
               className="w-full bg-transparent h-full px-4 py-4 text-white "
             />
-            <button className="text-black right-0 h-full w-[70px] md:w-[90px] absolute bg-white p-2 rounded-l-lg">
-              &rarr;
+            <button className="text-black right-0 h-full w-[70px] md:w-[90px] absolute bg-white p-2 rounded-l-lg flex items-center justify-center">
+               <TbMathGreater size={40} className='text-gray-400'/>
             </button>
           </div>
         </div>
