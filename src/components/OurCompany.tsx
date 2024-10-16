@@ -81,7 +81,7 @@ export default function OurCompany() {
 
         {/* Business Performance Section */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-24 space-y-8 md:space-y-0 md:space-x-12">
-          <div className="text-center md:text-left border-r-4 border-gray-300 pr-8 md:pr-12">
+          <div className="text-center md:text-left md:border-r-4 border-gray-300 pr-8 md:pr-12">
             <h2 className="text-5xl font-semibold text-gray-900">
               Business <br /> <span className="font-bold">Performance</span>
             </h2>
@@ -91,7 +91,7 @@ export default function OurCompany() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center w-full">
 
             {/* Happy Satisfied Customer */}
-            <div className="flex flex-col justify-center items-center border-r-4 border-gray-300 min-h-full w-full">
+            <div className="flex flex-col justify-center items-center md:border-r-4 border-gray-300 min-h-full w-full">
               <h3 className="text-6xl font-bold text-gray-900 mb-4">
                 19k<sup className=" text-6xl font-bold">+</sup>
               </h3>
@@ -99,7 +99,7 @@ export default function OurCompany() {
             </div>
 
             {/* Product Subscribers */}
-            <div className="flex flex-col justify-center items-center border-r-4 border-gray-300 min-h-full w-full">
+            <div className="flex flex-col justify-center items-center md:border-r-4 border-gray-300 min-h-full w-full">
               <h3 className="text-6xl font-bold text-gray-900 mb-4">
                 2m<sup className="text-6xl font-bold">+</sup>
               </h3>
