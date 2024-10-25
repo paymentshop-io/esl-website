@@ -7,6 +7,7 @@ import Careers from '../src/components/Career'
 import Products from '../src/components/Product'
 import OurCompany from '../src/components/OurCompany'
 
+
 const index = () => {
   return (
     <div>
