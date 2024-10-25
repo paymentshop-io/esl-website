@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import useOnClickOutside from '../hooks/useClickOutside';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 interface INO {
     isOpen: boolean;
@@ -28,7 +29,7 @@ const Drawer = ({ isOpen, setIsOpen }: INO) => {
                             className="py-5 flex items-center justify-between  px-5"
                         >
                             <div className="flex items-center">
-                                <img className="h-10 w-auto" alt="G" src="/assets/ESL-Logo.svg" />
+                                <img className="h-10 w-auto" alt="G" src="/E-Settlement.png" />
 
                             </div>
                             <img
@@ -44,34 +45,39 @@ const Drawer = ({ isOpen, setIsOpen }: INO) => {
                             <div className="flex w-full gap-y-6 mx-auto flex-col">
                                 <Link
                                     href="/"
-                                    className={`pr-12 text-base ${pathname === "/" ? "text-[#C9092E]" : " text-[#022295]"}`}
+                                    className={`pr-12 text-base`}
                                 >
-                                    Home
+                                    Company
                                 </Link>
                                 <Link
                                     href="/about-us"
-                                    className={`pr-12 text-base ${pathname === "/about-us" ? "text-[#C9092E]" : " text-[#022295]"}`}
+                                    className={`pr-12 text-base `}
                                 >
-                                    About us
+                                    Products
                                 </Link>
                                 <Link
                                     href="/what-we-do"
-                                    className={`pr-12 text-base ${pathname === "/what-we-do" ? "text-[#C9092E]" : " text-[#022295]"}`}
+                                    className={`pr-12 text-base `}
                                 >
-                                    What we do
-                                </Link>
-                                <Link
-                                    href="/career"
-                                    className={`pr-12 text-base ${pathname === "/career" ? "text-[#C9092E]" : " text-[#022295]"}`}
-                                >
-                                    Career
+                                    Careers
                                 </Link>
                                 <Link
                                     href="/contact-us"
-                                    className={`pr-12 text-base ${pathname === "/contact-us" ? "text-[#C9092E]" : " text-[#022295]"}`}
+                                    className={`pr-12 text-base `}
                                 >
                                     Contact
                                 </Link>
+
+                                <div className="flex items-center">
+                                    <Link className="mx-2" href={""}>
+                                        <Image alt="" className="h-6 w-6" width={24} height={24} src={"/images/49.png"} />
+                                    </Link>
+                                    <Link className="mx-2" href={""}>
+                                        <Image className="h-6 w-6" alt="" width={24} height={24} src={"/images/50.png"} />
+                                    </Link> <Link className="mx-2" href={""}>
+                                        <Image className="h-6 w-6" alt="" width={24} height={24} src={"/images/51.png"} />
+                                    </Link>
+                                </div>
                             </div>
                         </div>
 
