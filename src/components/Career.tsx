@@ -3,7 +3,7 @@ import React from 'react';
 
 const Careers: React.FC = () => {
   return (
-    <section className="relative bg-[#fb5607] md:h-screen flex justify-center items-center">
+    <section className="relative bg-[#fb5607] lg:h-screen flex justify-center items-center">
       <div className="absolute inset-0 bg-pattern opacity-80"></div>
 
       <div className="relative z-10 grid gap-4 grid-cols-1 lg:grid-cols-2 items-center w-10/12 max-w-6xl py-12">
