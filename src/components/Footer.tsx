@@ -53,24 +53,7 @@ const Footer = () => {
             <br />
             Whatsapp: {"+2347036918616"}
           </p>
-          <div className="flex flex-col gap-2">
-            <h4 className='uppercase font-bold'>Follow US </h4>
-            {/* Social Icons */}
-            <div className="flex gap-3">
-            <a href="#" className="text-white text-lg hover:text-gray-400">
-              {/* Icon */}
-              <FaInstagram width={24} height={24} />
-            </a>
-            <a href="#" className="text-white text-lg hover:text-gray-400">
-              {/* Icon */}
-              <FaTwitter width={24} height={24} />
-            </a>
-            <a href="#" className="text-white text-lg hover:text-gray-400 w-8 h-auto cursor-pointer">
-              {/* Icon */}
-              <FaLinkedin width={24} height={24} />
-            </a>
-            </div>
-          </div>
+          \
 
            {/* Bottom Links */}
       <div className="font-semibold max-w-7xl mx-auto mt-12 flex gap-6 justify-self-end text-sm">
