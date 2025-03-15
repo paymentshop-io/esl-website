@@ -7,6 +7,8 @@ import Careers from '../src/components/Career'
 import Products from '../src/components/Product'
 import OurCompany from '../src/components/OurCompany'
 import OurprouctsFeat from '../src/sections/OurprouctsFeat'
+import PartnerWorks from '../src/components/PartnerWorks'
+
 
 const index = () => {
   return (
@@ -18,6 +20,7 @@ const index = () => {
       <Products/>
       {/* <Contact/> */}
       <OurprouctsFeat />
+      {/* <PartnerWorks/> */}
       <Footer />
     </div>
   )

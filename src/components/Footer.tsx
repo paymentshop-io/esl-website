@@ -53,7 +53,7 @@ const Footer = () => {
             <br />
             Whatsapp: {"+2347036918616"}
           </p>
-          \
+      
 
            {/* Bottom Links */}
       <div className="font-semibold max-w-7xl mx-auto mt-12 flex gap-6 justify-self-end text-sm">
