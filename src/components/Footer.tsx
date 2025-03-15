@@ -44,14 +44,14 @@ const Footer = () => {
           </div>
         </div>
           <p className="mb-4 font-normal">
-            contact@esettlementgroup.com
+            contact@esettlement.com
             <br />
             13A, Hughes Avenue, Alagomeji, Yaba, Lagos.
           </p>
           <p className="mb-4 font-normal">
-            Telephone: (123) 456-7890
+            Telephone: {"+2349087792971"}
             <br />
-            Mobile: (123) 456-7890
+            Whatsapp: {"+2347036918616"}
           </p>
           <div className="flex flex-col gap-2">
             <h4 className='uppercase font-bold'>Follow US </h4>

@@ -6,7 +6,7 @@ export default function OurCompany() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* First row: History and Our Company */}
         <div className="flex flex-col md:flex-row justify-between gap-16 items-start border-b-2 border-gray-400 pb-8">
-          
+
           {/* History Section */}
           <div className="text-center mt-10 md:text-left mb-8 md:mb-0 md:flex-1">
             <img
@@ -16,11 +16,9 @@ export default function OurCompany() {
             />
             <h3 className="text-2xl font-bold">History</h3>
             <p className="text-lg md:text-xl mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              tempor incididunt ut labore. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Sint harum reiciendis corrupti?
-              Cum quibusdam quod asperiores fugit laboriosam ad ab et nemo ut
-              tempore! Assumenda maiores suscipit quae hic magni.
+              E-Settlement Limited, founded in 2018, is a financial technology company based in Lagos, Nigeria, dedicated to providing innovative and dependable payment solutions across Africa.
+              The company focuses on enhancing financial inclusion by offering services that cater to both urban and rural communities.
+
             </p>
           </div>
 
@@ -43,7 +41,7 @@ export default function OurCompany() {
 
         {/* Second row: Mission and Vision */}
         <div className="flex flex-col md:flex-row justify-between gap-16 items-start border-b-2 border-gray-400 pb-8 mt-8">
-          
+
           {/* Mission Section */}
           <div className="text-center md:text-left mb-8 md:mb-0 md:flex-1">
             <img
@@ -53,11 +51,7 @@ export default function OurCompany() {
             />
             <h3 className="text-2xl font-bold">Mission</h3>
             <p className="text-lg md:text-xl mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              tempor incididunt ut labore. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Sint harum reiciendis corrupti?
-              Cum quibusdam quod asperiores fugit laboriosam ad ab et nemo ut
-              tempore! Assumenda maiores suscipit quae hic magni.
+            Simplifying global payments with innovative, secure, and inclusive solutions that empower businesses and communities to thrive.
             </p>
           </div>
 
@@ -70,11 +64,7 @@ export default function OurCompany() {
             />
             <h3 className="text-2xl font-bold">Vision</h3>
             <p className="text-lg md:text-xl mt-2 text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              tempor incididunt ut labore. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Sint harum reiciendis corrupti?
-              Cum quibusdam quod asperiores fugit laboriosam ad ab et nemo ut
-              tempore! Assumenda maiores suscipit quae hic magni.
+            To be the most trusted partner for digital payments globally, driving financial innovation and inclusion across diverse markets.
             </p>
           </div>
         </div>
@@ -101,9 +91,9 @@ export default function OurCompany() {
             {/* Product Subscribers */}
             <div className="flex flex-col justify-center items-center md:border-r-4 border-gray-300 min-h-full w-full">
               <h3 className="text-6xl font-bold text-gray-900 mb-4">
-                2m<sup className="text-6xl font-bold">+</sup>
+                3<sup className="text-6xl font-bold"></sup>
               </h3>
-              <p className="font-semibold text-xl text-gray-400">Product<br />Subscribers</p>
+              <p className="font-semibold text-xl text-gray-400">Operational <br />Country</p>
             </div>
 
             {/* Expert Team Members */}

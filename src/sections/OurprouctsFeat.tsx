@@ -20,7 +20,7 @@ const OurprouctsFeat = () => {
 
           <h5 className='font-ageo text-center text-2xl font-semibold'>SECURITY</h5>
 
-          <p className='text-center text-xl font-sora mt-2'>Lorem ipsum dolor sit amet, consectetur de elit</p>
+          <p className='text-center text-xl font-sora mt-2'>Keeping your payments safe with advanced AI security.</p>
 
         </div>
         <div className='rounded-xl w-[340px] h-[414px] px-3 py-3 bg-[#ffbe0b]'>
@@ -32,7 +32,7 @@ const OurprouctsFeat = () => {
 
           <h5 className='font-ageo text-center text-2xl font-semibold'>PAYMENT SOLUTIONS</h5>
 
-          <p className='text-center text-xl font-sora mt-2'>Lorem ipsum dolor sit amet, consectetur de elit</p>
+          <p className='text-center text-xl font-sora mt-2'>Smart payment solutions for both physical and digital stores.</p>
 
         </div>
         <div className='rounded-xl w-[340px] h-[414px] px-3 py-3 bg-[#ffbe0b]'>
@@ -44,7 +44,7 @@ const OurprouctsFeat = () => {
 
           <h5 className='font-ageo text-center text-2xl font-semibold'>BILL PAYMENTS</h5>
 
-          <p className='text-center text-xl font-sora mt-2'>Lorem ipsum dolor sit amet, consectetur de elit</p>
+          <p className='text-center text-xl font-sora mt-2'>Convenient and reliable bill payment solutions.</p>
 
         </div>
 

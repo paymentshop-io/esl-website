@@ -41,15 +41,15 @@ const OurProducts: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between border-b-2 border-gray-400 pb-8">
           <div className="flex items-center gap-4 space-x-4">
             <div className='w-16 h-20 '>
-              <img src="/images/paypad.webp" className='md:h-24 h-20 object-cover object-left' />
+              <img src="/images/quicksecure.svg" className='md:h-full h-full object-contain object-left' />
 
             </div>
 
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900">PayPad</h3>
-              <p className="mt-1 text-xs md:text-lg md:w-3/4 text-gray-900">
-                PAYPAD is an mPOS solution that enables businesses to receive payments via a smartphone.
-              </p>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900">QuickSecure</h3>
+                <p className="mt-1 text-xs md:text-lg md:w-3/4 text-gray-900">
+                QuickSecure is an Escrow Payment solution that ensures secure transactions between buyers and sellers.
+                </p>
             </div>
           </div>
           <button className="font-sora text-white h-14 sm:h-[65px] w-full sm:w-[250px] bg-[#fb5607] rounded-lg border-2 border-black font-medium text-xs md:text-lg md:w-3/4mt-6 md:mt-0">
