@@ -53,7 +53,7 @@ const OurProducts: React.FC = () => {
             </div>
           </div>
           <button className="font-sora text-white h-14 sm:h-[65px] w-full sm:w-[250px] bg-[#fb5607] rounded-lg border-2 border-black font-medium text-xs md:text-lg md:w-3/4mt-6 md:mt-0">
-            Visit PayPad
+            Visit QuickSecure
           </button>
         </div>
 
@@ -61,18 +61,18 @@ const OurProducts: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="flex items-center space-x-4">
             <div className='w-20 h-20 '>
-              <img src="/images/paymentshop.png" className=' object-contain object-left' />
+              <img src="/images/cashenvoy.png" className=' object-contain object-left' />
 
             </div>
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900">PaymentShop</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900">CashEnvoy</h3>
               <p className="mt-1 text-xs md:text-lg md:w-3/4 text-gray-900">
-                PaymentShop is a solution that helps businesses receive payments via a smartphone.
+              Payment gateway for local and international transactions.
               </p>
             </div>
           </div>
           <button className="font-sora text-white h-14 sm:h-[65px] w-full sm:w-[250px] bg-[#fb5607] rounded-lg border-2 border-black font-medium text-xs md:text-lg md:w-3/4mt-6 md:mt-0">
-            Visit PaymentShop
+            Visit CashEnvoy
           </button>
         </div>
       </div>

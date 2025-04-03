@@ -85,7 +85,7 @@ export default function OurCompany() {
               <h3 className="text-6xl font-bold text-gray-900 mb-4">
                 19k<sup className=" text-6xl font-bold">+</sup>
               </h3>
-              <p className="font-semibold text-xl text-gray-400">Happy Satisfied<br />Customer</p>
+              <p className="font-semibold text-xl text-gray-400">Happy Satisfied<br />Customers</p>
             </div>
 
             {/* Product Subscribers */}
@@ -93,7 +93,7 @@ export default function OurCompany() {
               <h3 className="text-6xl font-bold text-gray-900 mb-4">
                 3<sup className="text-6xl font-bold"></sup>
               </h3>
-              <p className="font-semibold text-xl text-gray-400">Operational <br />Country</p>
+              <p className="font-semibold text-xl text-gray-400">Operational <br />Countries</p>
             </div>
 
             {/* Expert Team Members */}
